@@ -37,14 +37,14 @@ http.createServer(function (request, response) {
         console.log('a is', a, 'b is', b);
         console.log('pathname is', url.parse(request.url, true).pathname);
         var ans;
-        switch (url.parse(request.url, true).pathname) {
+        switch (pathname) {
             case '/add':
                 ans = parseInt(a) + parseInt(b);
                 break;
             case '/subtract':
                 ans = parseInt(a) - parseInt(b);
                 break;
-            case '/multuply':
+            case '/multiply':
                 ans = parseInt(a) * parseInt(b);
                 break;
             case '/divide':
@@ -57,7 +57,7 @@ http.createServer(function (request, response) {
                 break;
             default:
                 // nothin special here
-                response.end('please use one of the following methods: add/subtract/multuply/divide \n or fibonacci with variable num');
+                ans = 'please use one of the following methods: add/subtract/multiply/divide \n or fibonacci with variable num';
         } // EO switch
         console.log('returning', ans);
         response.end(ans + ''); // convert ans to string

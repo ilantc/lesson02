@@ -2,7 +2,7 @@ loacker lesson 02
 ========
 
 web course excercise no 2
-We will practice how to code whiled eating loacker
+We will practice how to code while eating loacker
 
 Contribution guide
 ======

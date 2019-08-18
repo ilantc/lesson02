@@ -18,9 +18,9 @@ http.createServer(function (request, response) {
             ans = 'num must be used with fibonacci pathname!';
         }
         else {
-            n = parseInt(queryData.num);
+            let n = parseInt(queryData.num);
             if (n < 0) {
-                ans = 'no fibonacci response for negative values, num =' + num;
+                ans = 'no fibonacci response for negative values, num =' + queryData.num;
             }
             else {
                 ans = fibonaci(n);
@@ -67,7 +67,7 @@ http.createServer(function (request, response) {
 console.log('running - listening on port ', port);
 
 
-function fibonaci(n) {
+function fibonaci(n:number) {
     if ((1 == n) || (0 == n) )  {
         return 1;
     }

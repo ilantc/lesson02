@@ -1,7 +1,7 @@
 /**
  * Created by User on 3/17/14.
  */
-function fibonaci(n) {
+function fibonaci(n:number) {
     if ((1 == n) || (0 == n) )  {
         return 1;
     }

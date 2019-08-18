@@ -1,4 +1,4 @@
-ilanLovesLoacker = true;
+var ilanLovesLoacker = true;
 
 /**
  * Created by Ilans on 3/17/14.

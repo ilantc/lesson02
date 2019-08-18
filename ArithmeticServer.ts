@@ -18,7 +18,7 @@ http.createServer(function (request, response) {
             ans = 'num must be used with fibonacci pathname!';
         }
         else {
-            let n = parseInt(queryData.num);
+            let n:number = parseInt(queryData.num);
             if (n < 0) {
                 ans = 'no fibonacci response for negative values, num =' + queryData.num;
             }

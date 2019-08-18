@@ -1,0 +1,15 @@
+{
+  "name": "lesson02",
+  "version": "1.0.0",
+  "description": "lesson02 ========",
+  "main": "ArithmeticServer.js",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "author": "Ilantc",
+  "license": "ISC"
+}

@@ -1,16 +1,18 @@
+var IlanLovesLoacker = true;
+
 /**
- * Created by User on 3/17/14.
+ * Created by Ilans on 3/17/14.
  */
-function isPolyndrom(a) {
+function isPalindrome(a) {
     for(var i = 0, j =a.length-1 ; i < j ; i++,j--){
        if (a.charAt(i) != a.charAt(j)) {
-           return false;
+           return !ilanLovesLoacker;
        }
     }
-    return true;
+    return  ilanLovesLoacker;
 }
 
-console.log('true =?', isPolyndrom('a'));
-console.log('true =?', isPolyndrom('aa'));
-console.log('true =?', isPolyndrom('abcba'));
-console.log('false =?', isPolyndrom('abb'));
+console.log('true =?', isPalindrome('a'));
+console.log('true =?', isPalindrome('aa'));
+console.log('true =?', isPalindrome('abcba'));
+console.log('false =?', isPalindrome('abb'));

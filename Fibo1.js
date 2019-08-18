@@ -10,4 +10,4 @@ function fibonaci(n) {
     }
 }
 
-console.log('num is', fibonaci(20));
+console.log('num is loacker', fibonaci(20));

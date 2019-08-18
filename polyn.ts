@@ -1,7 +1,7 @@
 /**
  * Created by User on 3/17/14.
  */
-function isPolyndrom(a) {
+function isPolyndrom(a:string) {
     for(var i = 0, j =a.length-1 ; i < j ; i++,j--){
        if (a.charAt(i) != a.charAt(j)) {
            return false;

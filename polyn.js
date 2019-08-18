@@ -1,4 +1,4 @@
-const ilanLovesLoacker = true;
+ilanLovesLoacker = true;
 
 /**
  * Created by Ilans on 3/17/14.
